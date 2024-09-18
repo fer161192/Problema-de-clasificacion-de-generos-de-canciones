@@ -1,2 +1,3 @@
 # Problema-de-clasificacion-de-generos-de-canciones
-Se aplican métodos de Machine Learning para clasificar canciones en base a su género
+Utilizando un conjunto de datos compuesto por canciones de dos géneros musicales (Hip-Hop y Rock), se entrenó un clasificador para distinguir entre los dos géneros basándome únicamente en la información de las canciones obtenida de Echonest (ahora parte de Spotify). En primer lugar, se utilizaron los paquetes de pandas y seaborn de Python para subconjuntar los datos, agregar información y crear gráficos para explorar los datos en busca de tendencias obvias o factores que se deben tener en cuenta a la hora de realizar aprendizaje automático.
+A continuación, se utilizó el paquete scikit-learn para predecir si puede clasificar correctamente el género de una canción basándonos en características como la bailabilidad, la energía, la acústica, el tempo, etc.
